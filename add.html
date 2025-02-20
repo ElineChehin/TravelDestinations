@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Add Destination</title>
+    </head>
+    <body>
+        <h1>Add Destination</h1>
+        <hr />
+
+        <!--Form to add a destination-->
+        <p>City <br />
+            <input type="text" maxlength="30" required="required"
+            placeholder="Amsterdam" />
+        </p>
+
+        <p>Country <br />
+            <input type="text" maxlength="50" required="required"
+        placeholder="The Netherlands" />
+        </p>
+
+        <p>Continent <br />
+        <select name="continent" required="required">
+            <option value="Africa">Africa</option>
+            <option value="Antarctica">Antarctica</option>
+            <option value="Asia">Asia</option>
+            <option value="Australia">Australia</option>
+            <option value="Europe">Europe</option>
+            <option value="North America">North America</option>
+            <option value="South America">South America</option>
+        </select>
+        </p>
+
+        <p>Upload image <br />
+            <input type="file" value="Browse..." />
+            <p><input type="submit" value="Upload"/></p>
+        </p>
+
+        <button>Add Destination</button>
+    </body>
+</html>
