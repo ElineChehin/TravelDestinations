@@ -1,2 +1,2 @@
-# TravelDestinations
-Collection of my favourite travel destinations.
+# 🌍 Travel Destinations
+Collection of my favourite travel destinations
