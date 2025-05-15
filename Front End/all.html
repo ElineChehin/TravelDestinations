@@ -1,14 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
+        <script src="destinations.js" defer></script>
         <script src="script.js"></script>
         <title>All Destinations</title>
     </head>
     <body>
+        <div class="topnav">
+            <a href="home.html">Home</a>
+            <a href="all.html">All Destinations</a>
+            <a href="favourites.html">My Favourites</a>
+            <a href="add.html">Add Destination</a>
+        </div>
+
         <h1>All Destinations</h1>
         <hr />
+
+        <div class="controls">
+            <label>Sort:</label>
+            <select id="sortSelect">
+                <option value="name-asc">A-Z</option>
+                <option value="name-desc">Z-A</option>
+            </select>
+
+            <label>Filter by continent:</label>
+            <select id="filterSelect">
+                <option value="all">All</option>
+                <option value="Europe">Europe</option>
+                <option value="Asia">Asia</option>
+            </select>
+        </div>
+
+        <div id="destinationsContainer" class="grid"></div>
+
+        <div class="pagination" id="pagination"></div>
     </body>
 
 </html>
